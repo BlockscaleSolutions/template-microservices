@@ -2,5 +2,5 @@ language: node_js
 node_js:
   - "9.3.0"
 
-install: cd template-service && yarn && cd ..
-script: cd template-service && yarn test  && cd ..
+install: cd template-service && yarn
+script: yarn test
